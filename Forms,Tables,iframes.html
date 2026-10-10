@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Assignment</title>
+</head>
+
+<body>
+
+<div>
+
+<form action="success.html" method="get" autocomplete="off">
+
+<table border="0">
+
+    <tr>
+        <td colspan="2">
+            <h3>1. Student Registration Form</h3>
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="name">Student Name</label></td>
+        <td>
+            <input type="text" id="name" name="name"
+            placeholder="Enter your name" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="email">Email</label></td>
+        <td>
+            <input type="email" id="email" name="email"
+            placeholder="Enter your email" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="password">Password</label></td>
+        <td>
+            <input type="password" id="password" name="password"
+            placeholder="Enter password" minlength="6" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="age">Age</label></td>
+        <td>
+            <input type="number" id="age" name="age"
+            placeholder="Enter your age" min="18" max="28" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="dob">Date of Birth</label></td>
+        <td>
+            <input type="date" id="dob" name="dob" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Gender</td>
+        <td>
+            <input type="radio" name="gender" value="male" required> Male
+            <input type="radio" name="gender" value="female"> Female
+        </td>
+    </tr>
+
+    <tr>
+        <td>Hobbies</td>
+        <td>
+            <input type="checkbox" name="hobbies" value="reading"> Reading
+            <input type="checkbox" name="hobbies" value="music"> Music
+            <input type="checkbox" name="hobbies" value="sports"> Sports
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="course">Course</label></td>
+        <td>
+            <select id="course" name="course" required>
+                <option value="">Select Course</option>
+                <option value="cse">Computer Science</option>
+                <option value="ece">Electronics</option>
+                <option value="mech">Mechanical</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </td>
+    </tr>
+
+
+    <!-- 2. Shopping List -->
+
+    <tr>
+        <td colspan="2">
+            <h3>2. Shopping List</h3>
+            <ul>
+                <li>Rice</li>
+                <li>Milk</li>
+                <li>Eggs</li>
+                <li>Vegetables</li>
+                <li>Fruits</li>
+            </ul>
+        </td>
+    </tr>
+
+
+    <!-- 3. Ordered List -->
+
+    <tr>
+        <td colspan="2">
+            <h3>3. Steps List</h3>
+            <ol>
+                <li>Visit the college website</li>
+                <li>Fill in the application form</li>
+                <li>Upload certificates</li>
+                <li>Pay the application fee</li>
+                <li>Submit the application</li>
+            </ol>
+        </td>
+    </tr>
+
+
+    <!-- 4. Nested Lists -->
+
+    <tr>
+        <td colspan="2">
+            <h3>4. Nested Lists</h3>
+            <ul>
+                <li>Engineering
+                    <ul>
+                        <li>Computer Science</li>
+                        <li>Electronics</li>
+                        <li>Mechanical</li>
+                    </ul>
+                </li>
+                <li>Arts and Science
+                    <ol>
+                        <li>B.Com</li>
+                        <li>B.Sc Computer Science</li>
+                    </ol>
+                </li>
+            </ul>
+        </td>
+    </tr>
+
+
+    <!-- 5. Student Details Table -->
+
+    <tr>
+        <td colspan="2">
+            <h3>5. Student Details Table</h3>
+            <table border="1">
+                <tr>
+                    <th>Roll No</th>
+                    <th>Name</th>
+                    <th>Course</th>
+                </tr>
+                <tr>
+                    <td>101</td>
+                    <td>Sneha</td>
+                    <td>CSE</td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>Abi</td>
+                    <td>CSE</td>
+                </tr>
+                <tr>
+                    <td>103</td>
+                    <td>Aarthi</td>
+                    <td>EEE</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+
+    <!-- 6. Colspan, Rowspan, Cell Spacing and Padding -->
+
+    <tr>
+        <td colspan="2">
+            <h3>6. Table with Colspan and Rowspan</h3>
+            <table border="1" cellspacing="5" cellpadding="8">
+                <tr>
+                    <th colspan="3">College Admission Details</th>
+                </tr>
+                <tr>
+                    <th>Roll No</th>
+                    <th>Student Name</th>
+                    <th>Course</th>
+                </tr>
+                <tr>
+                    <td>201</td>
+                    <td>Sneha</td>
+                    <td>CSE</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">202</td>
+                    <td>Abi</td>
+                    <td>ECE</td>
+                </tr>
+                <tr>
+                    <td>Aarthi</td>
+                    <td>Mechanical</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+</table>
+
+</form>
+
+
+</div>
+
+    <h2>YouTube Video</h2>
+    <iframe width="560" height="315"
+        src="https://www.youtube.com/watch?v=-4jGj8GZ52M"
+        title="YouTube Video">
+    </iframe>
+
+    <h2>Google Maps</h2>
+    <iframe width="600" height="450"
+        src="https://www.google.com/maps/place/Chennai,+Tamil+Nadu/@13.043795,80.2339071,11z/data=!3m1!4b1!4m6!3m5!1s0x3a5265ea4f7d3361:0x6e61a70b6863d433!8m2!3d13.0570568!4d80.2098219!16zL20vMGM4dGs?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
+        title="Google Maps">
+    </iframe>
+
+
+
+</body>
+</html>
